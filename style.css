@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+body{
+    background: whitesmoke;
+}
+body h2 {
+    display: flex;
+    justify-content: center;
+    background:  #AA997D;
+    font-size: 1.3rem;
+    height: 50px;
+    letter-spacing: 2px;
+    align-items: center;
+    gap: 20px;
+  }
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 55px auto;
+    width: 912px;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    border: 2px solid;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+a{
+ text-decoration: none;
+}
